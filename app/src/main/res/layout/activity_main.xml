@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.rhodonite.customview_seekbar.NumberSelect
+        android:id="@+id/number_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:default_value="3"
+        app:max_value="20"
+        app:min_value="0" />
+
+
+    <com.rhodonite.customview_seekbar.CustomView_4SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/customView_4SeekBar"
+        android:layout_below="@id/number_select"
+        android:layout_marginTop="30dp"
+        app:Title="123456"
+        app:default_value_="0"
+        app:max_value_="255"
+        />
+</RelativeLayout>

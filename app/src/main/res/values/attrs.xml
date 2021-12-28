@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NumberSelect">
+        <attr name="default_value" format="integer" />
+        <attr name="min_value" format="integer" />
+        <attr name="max_value" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomSelect">
+        <attr name="Title" format="string" />
+        <attr name="LeftButtonName" format="string" />
+        <attr name="RightButtonName" format="string" />
+        <attr name="default_value_" format="integer" />
+        <attr name="max_value_" format="integer" />
+    </declare-styleable>
+</resources>

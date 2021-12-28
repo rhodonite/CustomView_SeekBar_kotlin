@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Title"
+        android:textSize="30dp" />
+
+
+    <SeekBar
+        android:id="@+id/sb_left"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:layout_marginStart="60dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/sb_left"
+        android:layout_alignBottom="@+id/sb_left"
+        android:layout_marginEnd="-60dp"
+        android:layout_toStartOf="@+id/sb_left"
+        android:text="123456" />
+
+    <SeekBar
+        android:id="@+id/sb_right"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:layout_marginStart="250dp"
+     />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/sb_right"
+        android:layout_alignBottom="@+id/sb_right"
+        android:layout_marginEnd="-250dp"
+        android:layout_toStartOf="@+id/sb_right"
+        android:text="123456" />
+
+
+    <SeekBar
+        android:id="@+id/sb_left_1"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/sb_left"
+        android:layout_marginStart="60dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/sb_left_1"
+        android:layout_alignBottom="@+id/sb_left_1"
+        android:layout_marginEnd="-60dp"
+        android:layout_toStartOf="@+id/sb_left_1"
+        android:text="123" />
+
+    <SeekBar
+        android:id="@+id/sb_right_1"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/sb_right"
+        android:layout_marginStart="250dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/sb_right_1"
+        android:layout_alignBottom="@+id/sb_right_1"
+        android:layout_marginEnd="-250dp"
+        android:layout_toStartOf="@+id/sb_right_1"
+        android:text="123456" />
+</RelativeLayout>
